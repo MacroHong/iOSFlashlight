@@ -14,7 +14,7 @@
 		6C2B69641B9C3E64009386B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B69631B9C3E64009386B8 /* Assets.xcassets */; };
 		6C2B69671B9C3E64009386B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B69651B9C3E64009386B8 /* LaunchScreen.storyboard */; };
 		6C2B696F1B9C3E9B009386B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2B696E1B9C3E9B009386B8 /* AVFoundation.framework */; };
-		6C2B69761B9C6252009386B8 /* MHTorch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B69751B9C6252009386B8 /* MHTorch.m */; };
+		6CA500E11BEDEF1700E06FFC /* MHTorch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA500E01BEDEF1700E06FFC /* MHTorch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,8 @@
 		6C2B69661B9C3E64009386B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C2B69681B9C3E64009386B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C2B696E1B9C3E9B009386B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6C2B69741B9C6252009386B8 /* MHTorch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTorch.h; sourceTree = "<group>"; };
-		6C2B69751B9C6252009386B8 /* MHTorch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHTorch.m; sourceTree = "<group>"; };
+		6CA500DF1BEDEF1700E06FFC /* MHTorch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHTorch.h; path = MHFlashlightDemo/libs/MHTorch.h; sourceTree = "<group>"; };
+		6CA500E01BEDEF1700E06FFC /* MHTorch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHTorch.m; path = MHFlashlightDemo/libs/MHTorch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,7 @@
 		6C2B694B1B9C3E64009386B8 = {
 			isa = PBXGroup;
 			children = (
+				6CA500DE1BEDEEF500E06FFC /* libs */,
 				6C2B69561B9C3E64009386B8 /* MHFlashlightDemo */,
 				6C2B69551B9C3E64009386B8 /* Products */,
 			);
@@ -68,8 +69,6 @@
 				6C2B695B1B9C3E64009386B8 /* AppDelegate.m */,
 				6C2B695D1B9C3E64009386B8 /* ViewController.h */,
 				6C2B695E1B9C3E64009386B8 /* ViewController.m */,
-				6C2B69741B9C6252009386B8 /* MHTorch.h */,
-				6C2B69751B9C6252009386B8 /* MHTorch.m */,
 				6C2B69601B9C3E64009386B8 /* Main.storyboard */,
 				6C2B69631B9C3E64009386B8 /* Assets.xcassets */,
 				6C2B69651B9C3E64009386B8 /* LaunchScreen.storyboard */,
@@ -86,6 +85,15 @@
 				6C2B69581B9C3E64009386B8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CA500DE1BEDEEF500E06FFC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				6CA500DF1BEDEF1700E06FFC /* MHTorch.h */,
+				6CA500E01BEDEF1700E06FFC /* MHTorch.m */,
+			);
+			name = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C2B695F1B9C3E64009386B8 /* ViewController.m in Sources */,
-				6C2B69761B9C6252009386B8 /* MHTorch.m in Sources */,
 				6C2B695C1B9C3E64009386B8 /* AppDelegate.m in Sources */,
 				6C2B69591B9C3E64009386B8 /* main.m in Sources */,
+				6CA500E11BEDEF1700E06FFC /* MHTorch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
