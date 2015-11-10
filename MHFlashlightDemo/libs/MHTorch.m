@@ -60,7 +60,8 @@
             } else {
                 NSLog(@"Failed to lock device %@ for configuration: %@", _device, error);
             }
-        }); } else {
+        });
+    } else {
             UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"使用手电筒需要打开摄像头权限" delegate:nil cancelButtonTitle:@"确认" otherButtonTitles:nil, nil];
             alertView.alertViewStyle = UIAlertViewStyleDefault;
             [alertView show];

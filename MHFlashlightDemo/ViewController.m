@@ -33,6 +33,9 @@
     [btn addTarget:self action:@selector(openFlashlight:) forControlEvents:(UIControlEventTouchUpInside)];
     btn.selected = NO;
     [self.view addSubview:btn];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

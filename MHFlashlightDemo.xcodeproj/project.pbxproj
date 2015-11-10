@@ -13,7 +13,6 @@
 		6C2B69621B9C3E64009386B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B69601B9C3E64009386B8 /* Main.storyboard */; };
 		6C2B69641B9C3E64009386B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B69631B9C3E64009386B8 /* Assets.xcassets */; };
 		6C2B69671B9C3E64009386B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2B69651B9C3E64009386B8 /* LaunchScreen.storyboard */; };
-		6C2B696F1B9C3E9B009386B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2B696E1B9C3E9B009386B8 /* AVFoundation.framework */; };
 		6CA500E11BEDEF1700E06FFC /* MHTorch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA500E01BEDEF1700E06FFC /* MHTorch.m */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C2B696F1B9C3E9B009386B8 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
